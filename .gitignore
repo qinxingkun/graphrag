@@ -1,0 +1,194 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.coverage.xml
+pytestdebug.log
+
+# Type checker / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.bandit/
+.dmypy.json
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# PyCharm / IntelliJ / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*/
+.nfs*
+
+# =========================
+# uv / pip / poetry like tooling
+# =========================
+# uv local cache dir (optional; safe to ignore)
+.uv/
+
+# If you DO NOT want to commit lockfiles, uncomment:
+# uv.lock
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# Docker / Compose artifacts
+# =========================
+# Local compose overrides
+docker-compose.override.yml
+
+# Docker runtime files
+**/docker-data/
+**/docker-volumes/
+**/docker/
+
+# If you store volumes under project folder, ignore them:
+volumes/
+data/volumes/
+# If you store under DOCKER_VOLUME_DIRECTORY within repo, ignore:
+# /volumes/
+
+# =========================
+# Neo4j / Milvus / MinIO data (when stored in repo)
+# =========================
+# Neo4j local bind mounts (only if you bind them into repo)
+neo4j_data/
+neo4j_logs/
+neo4j_plugins/
+
+# Milvus / etcd / minio local bind mounts (only if inside repo)
+milvus/
+etcd/
+minio/
+milvus-etcd/
+milvus-minio/
+
+# MinIO
+minio_data/
+
+# =========================
+# Project specific
+# =========================
+# Large datasets / caches / exports
+data/raw/
+data/processed/
+data/cache/
+data/tmp/
+data/exports/
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.npz
+
+# Models / embeddings
+models/
+checkpoints/
+embeddings/
+vectorstore/
+index/
+indexes/
+
+# Reports / artifacts
+reports/
+artifacts/
+runs/
+
+# =========================
+# Node (if any front-end/tools)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
+*.tmp
+.cache/
+
+learn/
