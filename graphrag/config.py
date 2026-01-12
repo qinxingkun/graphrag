@@ -36,7 +36,7 @@ class MilvusConfig:
 
 @dataclass
 class LLMConfig:
-    api_key: str = "bab8b02026ff3fc200d405feec6b8225.KmkJqlTfGEjFznV7"
+    api_key: str = ""
     model: str = "glm-4-0520"
     temperature: float = 0
     embedding_model: str = "embedding-3"
